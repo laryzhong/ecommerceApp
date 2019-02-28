@@ -1,0 +1,994 @@
+[Sun Jun 10 09:18:31.381154 2018] [mpm_winnt:notice] [pid 4188:tid 196] AH00455: Apache/2.4.33 (Win32) configured -- resuming normal operations
+[Sun Jun 10 09:18:31.381154 2018] [mpm_winnt:notice] [pid 4188:tid 196] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jun 10 09:18:31.381154 2018] [core:notice] [pid 4188:tid 196] AH00094: Command line: 'httpd -d D:/amp/Apache24'
+[Sun Jun 10 09:18:31.406155 2018] [mpm_winnt:notice] [pid 4188:tid 196] AH00418: Parent: Created child process 4304
+Apache server interrupted...
+018] [mpm_winnt:notice] [pid 4304:tid 208] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 10 09:21:52.119911 2018] [mpm_winnt:notice] [pid 4188:tid 196] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Sun Jun 10 09:21:54.120025 2018] [mpm_winnt:notice] [pid 4304:tid 208] AH00364: Child: All worker threads have exited.
+[Sun Jun 10 09:21:54.133026 2018] [mpm_winnt:notice] [pid 4188:tid 196] AH00430: Parent: Child process 4304 exited successfully.
+[Sun Jun 10 16:52:22.132840 2018] [mpm_winnt:notice] [pid 3412:tid 196] AH00455: Apache/2.4.33 (Win32) configured -- resuming normal operations
+[Sun Jun 10 16:52:22.133840 2018] [mpm_winnt:notice] [pid 3412:tid 196] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jun 10 16:52:22.133840 2018] [core:notice] [pid 3412:tid 196] AH00094: Command line: 'httpd -d D:/amp/Apache24'
+[Sun Jun 10 16:52:22.155842 2018] [mpm_winnt:notice] [pid 3412:tid 196] AH00418: Parent: Created child process 2852
+Apache server interrupted...
+018] [mpm_winnt:notice] [pid 2852:tid 208] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 10 16:53:10.832570 2018] [mpm_winnt:notice] [pid 3412:tid 196] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 10 16:53:12.833283 2018] [mpm_winnt:notice] [pid 2852:tid 208] AH00364: Child: All worker threads have exited.
+[Sun Jun 10 16:53:12.846284 2018] [mpm_winnt:notice] [pid 3412:tid 196] AH00430: Parent: Child process 2852 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 1272:tid 312] AH00455: Apache/2.4.33 (Win32) configured -- resuming normal operations
+[Sun Jun 10 16:53:37.073601 2018] [mpm_winnt:notice] [pid 1272:tid 312] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jun 10 16:53:37.073601 2018] [core:notice] [pid 1272:tid 312] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sun Jun 10 16:53:37.096602 2018] [mpm_winnt:notice] [pid 1272:tid 312] AH00418: Parent: Created child process 3228
+[Sun Jun 10 16:53:37.794642 2018] [mpm_winnt:notice] [pid 3228:tid 204] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 10 17:07:18.575147 2018] [mpm_winnt:notice] [pid 1272:tid 312] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 10 17:07:20.575744 2018] [mpm_winnt:notice] [pid 3228:tid 204] AH00364: Child: All worker threads have exited.
+[Sun Jun 10 17:07:20.588745 2018] [mpm_winnt:notice] [pid 1272:tid 312] AH00430: Parent: Child process 3228 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 4168:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Sun Jun 10 17:22:56.263999 2018] [mpm_winnt:notice] [pid 4168:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jun 10 17:22:56.263999 2018] [core:notice] [pid 4168:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sun Jun 10 17:22:56.271999 2018] [mpm_winnt:notice] [pid 4168:tid 364] AH00418: Parent: Created child process 1688
+[Sun Jun 10 17:22:57.045007 2018] [mpm_winnt:notice] [pid 1688:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 10 17:24:54.241707 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60629] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jun 10 17:44:09.395885 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60880] PHP Notice:  Use of undefined constant file_name - assumed 'file_name' in D:\\amp\\www\\api\\user_profile.php on line 3
+[Sun Jun 10 17:44:09.396885 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60880] PHP Warning:  file_get_contents(file_name): failed to open stream: No such file or directory in D:\\amp\\www\\api\\user_profile.php on line 3
+[Sun Jun 10 17:44:38.251535 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60886] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jun 10 17:45:16.877744 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60894] script 'D:/amp/www/user_profile.php' not found or unable to stat
+[Sun Jun 10 17:45:25.673248 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60896] PHP Notice:  Use of undefined constant file_name - assumed 'file_name' in D:\\amp\\www\\api\\user_profile.php on line 3
+[Sun Jun 10 17:45:25.673248 2018] [:error] [pid 1688:tid 804] [client 127.0.0.1:60896] PHP Warning:  file_get_contents(file_name): failed to open stream: No such file or directory in D:\\amp\\www\\api\\user_profile.php on line 3
+[Sun Jun 10 18:09:45.624752 2018] [:error] [pid 1688:tid 808] [client 192.168.191.2:43766] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jun 10 18:10:21.628811 2018] [:error] [pid 1688:tid 804] [client 192.168.191.2:43770] script 'D:/amp/www/api/user_file.php' not found or unable to stat
+[Sun Jun 10 22:39:44.278580 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:36166] script 'D:/amp/www/api/sort_content_list.php' not found or unable to stat
+[Sun Jun 10 22:39:44.329583 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:36166] PHP Warning:  file_get_contents(http://127.0.0.1/data/sort_list_data .json): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\sort_list.php on line 3
+[Sun Jun 10 22:40:42.557913 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:37020] script 'D:/amp/www/api/sort_content_list.php' not found or unable to stat
+[Sun Jun 10 22:40:42.619917 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:37020] PHP Warning:  file_get_contents(http://127.0.0.1/data/sort_list_data .json): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\sort_list.php on line 3
+[Sun Jun 10 22:42:47.065035 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:60197] PHP Warning:  file_get_contents(http://127.0.0.1/data/sort_list_data .json): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\sort_list.php on line 3
+[Sun Jun 10 22:50:03.438411 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:42318] PHP Warning:  file_get_contents(http://127.0.0.1/data/sort_list_data .json): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\sort_list.php on line 3
+[Sun Jun 10 22:50:40.183513 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:44597] PHP Warning:  file_get_contents(http://127.0.0.1/data/sort_list_data .json): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\sort_list.php on line 3
+[Sun Jun 10 22:51:20.786835 2018] [:error] [pid 1688:tid 812] [client 192.168.191.2:59327] PHP Warning:  file_get_contents(http://127.0.0.1/data/sort_list_data .json): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\sort_list.php on line 3
+[Sun Jun 10 23:01:56.176969 2018] [mpm_winnt:notice] [pid 4168:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 10 23:01:58.176972 2018] [mpm_winnt:notice] [pid 1688:tid 264] AH00364: Child: All worker threads have exited.
+[Sun Jun 10 23:01:58.306972 2018] [mpm_winnt:notice] [pid 4168:tid 364] AH00430: Parent: Child process 1688 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 5840:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Sun Jun 10 23:04:07.058063 2018] [mpm_winnt:notice] [pid 5840:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jun 10 23:04:07.058063 2018] [core:notice] [pid 5840:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sun Jun 10 23:04:07.089263 2018] [mpm_winnt:notice] [pid 5840:tid 364] AH00418: Parent: Created child process 3128
+[Sun Jun 10 23:04:07.822464 2018] [mpm_winnt:notice] [pid 3128:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 10 23:04:15.809678 2018] [mpm_winnt:notice] [pid 5840:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 10 23:04:17.837682 2018] [mpm_winnt:notice] [pid 3128:tid 264] AH00364: Child: All worker threads have exited.
+[Sun Jun 10 23:04:17.853282 2018] [mpm_winnt:notice] [pid 5840:tid 364] AH00430: Parent: Child process 3128 exited successfully.
+[Mon Jun 11 00:03:55.772044 2018] [mpm_winnt:notice] [pid 1612:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 11 00:03:55.772044 2018] [mpm_winnt:notice] [pid 1612:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 11 00:03:55.772044 2018] [core:notice] [pid 1612:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 11 00:03:55.787644 2018] [mpm_winnt:notice] [pid 1612:tid 364] AH00418: Parent: Created child process 1908
+[Mon Jun 11 00:03:57.201675 2018] [mpm_winnt:notice] [pid 1908:tid 264] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 11 00:06:21.903105 2018] [:error] [pid 1908:tid 804] [client 127.0.0.1:55569] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 11 14:14:00.063424 2018] [mpm_winnt:notice] [pid 1612:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 11 14:14:03.363533 2018] [mpm_winnt:notice] [pid 1908:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 11 14:14:11.726851 2018] [mpm_winnt:notice] [pid 1612:tid 364] AH00430: Parent: Child process 1908 exited successfully.
+[Mon Jun 11 14:30:32.204845 2018] [mpm_winnt:notice] [pid 1600:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 11 14:30:32.214845 2018] [mpm_winnt:notice] [pid 1600:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 11 14:30:32.214845 2018] [core:notice] [pid 1600:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 11 14:30:32.234845 2018] [mpm_winnt:notice] [pid 1600:tid 364] AH00418: Parent: Created child process 1900
+[Mon Jun 11 14:30:33.544847 2018] [mpm_winnt:notice] [pid 1900:tid 264] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 11 14:33:46.260763 2018] [:error] [pid 1900:tid 808] [client 192.168.191.2:49608] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 11 16:08:30.693016 2018] [mpm_winnt:notice] [pid 1600:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 11 16:08:32.721019 2018] [mpm_winnt:notice] [pid 1900:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 11 16:08:38.009429 2018] [mpm_winnt:notice] [pid 1600:tid 364] AH00430: Parent: Child process 1900 exited successfully.
+[Mon Jun 11 20:43:34.238065 2018] [mpm_winnt:notice] [pid 1724:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 11 20:43:34.268065 2018] [mpm_winnt:notice] [pid 1724:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 11 20:43:34.268065 2018] [core:notice] [pid 1724:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 11 20:43:34.308065 2018] [mpm_winnt:notice] [pid 1724:tid 364] AH00418: Parent: Created child process 2044
+[Mon Jun 11 20:43:35.472077 2018] [mpm_winnt:notice] [pid 2044:tid 264] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 12 00:23:20.125599 2018] [mpm_winnt:notice] [pid 1724:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 12 00:23:22.153602 2018] [mpm_winnt:notice] [pid 2044:tid 264] AH00364: Child: All worker threads have exited.
+[Tue Jun 12 00:23:24.040409 2018] [mpm_winnt:notice] [pid 1724:tid 364] AH00430: Parent: Child process 2044 exited successfully.
+[Tue Jun 12 09:26:14.350906 2018] [mpm_winnt:notice] [pid 1668:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Tue Jun 12 09:26:14.354907 2018] [mpm_winnt:notice] [pid 1668:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Tue Jun 12 09:26:14.354907 2018] [core:notice] [pid 1668:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Tue Jun 12 09:26:17.755318 2018] [mpm_winnt:notice] [pid 1668:tid 364] AH00418: Parent: Created child process 1976
+[Tue Jun 12 09:26:19.268521 2018] [mpm_winnt:notice] [pid 1976:tid 264] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 12 12:21:00.512974 2018] [:error] [pid 1976:tid 800] [client 192.168.191.4:46027] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Thu Jun 14 17:52:11.756309 2018] [core:warn] [pid 1676:tid 296] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 14 17:52:16.384928 2018] [mpm_winnt:notice] [pid 1676:tid 296] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Thu Jun 14 17:52:16.384928 2018] [mpm_winnt:notice] [pid 1676:tid 296] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Thu Jun 14 17:52:16.384928 2018] [core:notice] [pid 1676:tid 296] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Thu Jun 14 17:52:17.320930 2018] [mpm_winnt:notice] [pid 1676:tid 296] AH00418: Parent: Created child process 1688
+[Thu Jun 14 17:52:18.475332 2018] [mpm_winnt:notice] [pid 1688:tid 264] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 14 20:43:21.109524 2018] [:error] [pid 1688:tid 800] [client 192.168.191.2:48204] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 20:43:27.735188 2018] [:error] [pid 1688:tid 800] [client 192.168.191.2:36129] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 20:43:30.068515 2018] [:error] [pid 1688:tid 800] [client 192.168.191.2:36129] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 20:43:55.290789 2018] [:error] [pid 1688:tid 800] [client 192.168.191.2:33048] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 20:53:56.209462 2018] [:error] [pid 1688:tid 780] [client 192.168.191.2:47740] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 20:53:58.719385 2018] [:error] [pid 1688:tid 780] [client 192.168.191.2:47740] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 21:17:30.272829 2018] [:error] [pid 1688:tid 792] [client 192.168.191.2:39027] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 21:17:31.632497 2018] [:error] [pid 1688:tid 792] [client 192.168.191.2:39027] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 21:18:02.208363 2018] [:error] [pid 1688:tid 792] [client 192.168.191.2:55442] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 22:53:32.813141 2018] [:error] [pid 1688:tid 788] [client 192.168.191.2:56078] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 22:53:36.368429 2018] [:error] [pid 1688:tid 788] [client 192.168.191.2:56078] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 22:53:47.945263 2018] [:error] [pid 1688:tid 788] [client 192.168.191.2:57923] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 22:53:53.461630 2018] [:error] [pid 1688:tid 788] [client 192.168.191.2:44150] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 22:55:03.204599 2018] [:error] [pid 1688:tid 788] [client 192.168.191.2:36703] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 22:55:20.202940 2018] [:error] [pid 1688:tid 788] [client 192.168.191.2:57863] script 'D:/amp/www/api/shop_cart_count.php' not found or unable to stat
+[Thu Jun 14 23:49:24.017016 2018] [mpm_winnt:notice] [pid 1676:tid 296] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 14 23:49:26.031521 2018] [mpm_winnt:notice] [pid 1688:tid 264] AH00364: Child: All worker threads have exited.
+[Thu Jun 14 23:49:34.234837 2018] [mpm_winnt:notice] [pid 1676:tid 296] AH00430: Parent: Child process 1688 exited successfully.
+[Fri Jun 15 17:35:54.151885 2018] [mpm_winnt:notice] [pid 1616:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Fri Jun 15 17:35:54.202888 2018] [mpm_winnt:notice] [pid 1616:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Fri Jun 15 17:35:54.202888 2018] [core:notice] [pid 1616:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Fri Jun 15 17:35:58.287324 2018] [mpm_winnt:notice] [pid 1616:tid 364] AH00418: Parent: Created child process 2024
+[Fri Jun 15 17:35:59.660127 2018] [mpm_winnt:notice] [pid 2024:tid 264] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 15 21:00:27.181395 2018] [:error] [pid 2024:tid 804] [client 192.168.191.4:40207] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 15 21:02:35.040583 2018] [:error] [pid 2024:tid 804] [client 192.168.191.4:40480] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 15 21:36:05.215103 2018] [:error] [pid 2024:tid 804] [client 192.168.191.4:41205] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 15 21:53:26.802362 2018] [:error] [pid 2024:tid 804] [client 192.168.191.4:42106] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 15 21:58:25.063142 2018] [:error] [pid 2024:tid 804] [client 192.168.191.4:37607] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 15 23:19:49.451827 2018] [mpm_winnt:notice] [pid 1616:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 15 23:19:51.791035 2018] [mpm_winnt:notice] [pid 2024:tid 264] AH00364: Child: All worker threads have exited.
+[Fri Jun 15 23:20:02.514257 2018] [mpm_winnt:notice] [pid 1616:tid 364] AH00430: Parent: Child process 2024 exited successfully.
+[Sat Jun 16 21:56:49.584508 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Sat Jun 16 21:56:49.604508 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sat Jun 16 21:56:49.604508 2018] [core:notice] [pid 1620:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sat Jun 16 21:56:52.301321 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00418: Parent: Created child process 1448
+[Sat Jun 16 21:56:54.485325 2018] [mpm_winnt:notice] [pid 1448:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 17 18:29:40.452218 2018] [:error] [pid 1448:tid 820] [client 127.0.0.1:59255] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 18 12:55:34.803846 2018] [:error] [pid 1448:tid 804] [client 192.168.191.2:48657] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 18 12:57:29.178388 2018] [:error] [pid 1448:tid 780] [client 192.168.191.2:43575] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 18 14:07:02.030783 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 18 14:07:06.375494 2018] [mpm_winnt:notice] [pid 1448:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 18 14:07:23.466139 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00430: Parent: Child process 1448 exited successfully.
+[Mon Jun 18 14:22:52.428913 2018] [mpm_winnt:notice] [pid 1720:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 18 14:22:52.448913 2018] [mpm_winnt:notice] [pid 1720:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 18 14:22:52.448913 2018] [core:notice] [pid 1720:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 18 14:22:54.388918 2018] [mpm_winnt:notice] [pid 1720:tid 364] AH00418: Parent: Created child process 1408
+[Mon Jun 18 14:22:56.260921 2018] [mpm_winnt:notice] [pid 1408:tid 264] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 18 14:25:32.114921 2018] [:error] [pid 1408:tid 820] [client 192.168.191.2:37135] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 18 15:56:48.513940 2018] [mpm_winnt:notice] [pid 1720:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 18 15:56:50.541944 2018] [mpm_winnt:notice] [pid 1408:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 18 15:56:55.915657 2018] [mpm_winnt:notice] [pid 1720:tid 364] AH00430: Parent: Child process 1408 exited successfully.
+[Mon Jun 18 17:21:27.404525 2018] [mpm_winnt:notice] [pid 1808:tid 372] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 18 17:21:27.434525 2018] [mpm_winnt:notice] [pid 1808:tid 372] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 18 17:21:27.434525 2018] [core:notice] [pid 1808:tid 372] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 18 17:21:30.259332 2018] [mpm_winnt:notice] [pid 1808:tid 372] AH00418: Parent: Created child process 1392
+[Mon Jun 18 17:21:32.298138 2018] [mpm_winnt:notice] [pid 1392:tid 264] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 18 18:40:48.285156 2018] [mpm_winnt:notice] [pid 1808:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 18 18:40:50.313160 2018] [mpm_winnt:notice] [pid 1392:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 18 18:40:54.843171 2018] [mpm_winnt:notice] [pid 1808:tid 372] AH00430: Parent: Child process 1392 exited successfully.
+[Tue Jun 19 13:46:14.261525 2018] [mpm_winnt:notice] [pid 1748:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Tue Jun 19 13:46:14.295527 2018] [mpm_winnt:notice] [pid 1748:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Tue Jun 19 13:46:14.295527 2018] [core:notice] [pid 1748:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Tue Jun 19 13:46:17.603355 2018] [mpm_winnt:notice] [pid 1748:tid 364] AH00418: Parent: Created child process 2016
+[Tue Jun 19 13:46:18.726557 2018] [mpm_winnt:notice] [pid 2016:tid 264] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 19 14:53:29.450279 2018] [:error] [pid 2016:tid 792] [client 192.168.191.2:58536] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Tue Jun 19 17:48:32.997915 2018] [:error] [pid 2016:tid 804] [client 192.168.191.2:38181] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Tue Jun 19 19:42:11.314900 2018] [:error] [pid 2016:tid 804] [client 192.168.191.2:60189] script 'D:/amp/www/api/refresh.php' not found or unable to stat
+[Tue Jun 19 21:53:11.297295 2018] [:error] [pid 2016:tid 792] [client 192.168.191.2:45225] PHP Warning:  file_get_contents(http://127.0.0.1/data/goods_detail_data_0.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\goods_detail.php on line 4
+[Tue Jun 19 21:56:54.667071 2018] [:error] [pid 2016:tid 792] [client 192.168.191.2:59458] PHP Warning:  file_get_contents(http://127.0.0.1/data/goods_detail_data_2.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\goods_detail.php on line 4
+[Tue Jun 19 22:01:35.579138 2018] [:error] [pid 2016:tid 788] [client 192.168.191.2:47894] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Tue Jun 19 22:03:32.226810 2018] [:error] [pid 2016:tid 788] [client 192.168.191.2:45320] PHP Warning:  file_get_contents(http://127.0.0.1/data/goods_detail_data_0.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\goods_detail.php on line 4
+[Tue Jun 19 22:27:31.424062 2018] [mpm_winnt:notice] [pid 1748:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jun 19 22:27:34.484168 2018] [mpm_winnt:notice] [pid 2016:tid 264] AH00364: Child: All worker threads have exited.
+[Tue Jun 19 22:27:43.870788 2018] [mpm_winnt:notice] [pid 1748:tid 364] AH00430: Parent: Child process 2016 exited successfully.
+[Wed Jun 20 07:34:57.777277 2018] [mpm_winnt:notice] [pid 1768:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 07:34:57.787277 2018] [mpm_winnt:notice] [pid 1768:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 07:34:57.787277 2018] [core:notice] [pid 1768:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 07:35:00.885282 2018] [mpm_winnt:notice] [pid 1768:tid 364] AH00418: Parent: Created child process 1048
+[Wed Jun 20 07:35:02.367284 2018] [mpm_winnt:notice] [pid 1048:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 07:37:47.912956 2018] [mpm_winnt:notice] [pid 1768:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 07:37:49.940959 2018] [mpm_winnt:notice] [pid 1048:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 07:37:50.221760 2018] [mpm_winnt:notice] [pid 1768:tid 364] AH00430: Parent: Child process 1048 exited successfully.
+[Wed Jun 20 13:39:17.105273 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 13:39:17.208279 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 13:39:17.208279 2018] [core:notice] [pid 1728:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 13:39:21.911726 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00418: Parent: Created child process 2012
+[Wed Jun 20 13:39:23.471729 2018] [mpm_winnt:notice] [pid 2012:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 13:55:25.561951 2018] [:error] [pid 2012:tid 804] [client 127.0.0.1:62677] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 13:55:30.457230 2018] [:error] [pid 2012:tid 804] [client 127.0.0.1:62677] script 'D:/amp/www/test.php' not found or unable to stat
+[Wed Jun 20 13:56:00.391113 2018] [:error] [pid 2012:tid 792] [client 127.0.0.1:52088] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 12
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1728:tid 364] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_pdo_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 14:07:28.542066 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 14:07:28.542066 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 14:07:28.542066 2018] [core:notice] [pid 1728:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 14:07:28.567067 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00418: Parent: Created child process 4468
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_pdo_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 14:07:29.314110 2018] [mpm_winnt:notice] [pid 4468:tid 304] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 14:07:30.293265 2018] [mpm_winnt:notice] [pid 2012:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 14:07:44.367461 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 14:07:46.368675 2018] [mpm_winnt:notice] [pid 4468:tid 304] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 14:07:46.383676 2018] [mpm_winnt:notice] [pid 1728:tid 364] AH00430: Parent: Child process 4468 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_pdo_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 14:07:47.689350 2018] [mpm_winnt:notice] [pid 3016:tid 376] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 14:07:47.690350 2018] [mpm_winnt:notice] [pid 3016:tid 376] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 14:07:47.690350 2018] [core:notice] [pid 3016:tid 376] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 14:07:47.715351 2018] [mpm_winnt:notice] [pid 3016:tid 376] AH00418: Parent: Created child process 5500
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\php\\ext\\php_pdo_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 14:07:48.494995 2018] [mpm_winnt:notice] [pid 5500:tid 304] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 14:15:40.588422 2018] [:error] [pid 5500:tid 832] [client 127.0.0.1:62085] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:15:55.937739 2018] [:error] [pid 5500:tid 820] [client 127.0.0.1:62094] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:15:56.601974 2018] [:error] [pid 5500:tid 820] [client 127.0.0.1:62094] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:15:56.803783 2018] [:error] [pid 5500:tid 820] [client 127.0.0.1:62094] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:17:22.282483 2018] [:error] [pid 5500:tid 832] [client 127.0.0.1:62229] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:26:38.277841 2018] [mpm_winnt:notice] [pid 3016:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 14:26:40.292546 2018] [mpm_winnt:notice] [pid 5500:tid 304] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 14:26:40.443352 2018] [mpm_winnt:notice] [pid 3016:tid 376] AH00430: Parent: Child process 5500 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_mysqli.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 14:26:42.128841 2018] [mpm_winnt:notice] [pid 5580:tid 376] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 14:26:42.128841 2018] [mpm_winnt:notice] [pid 5580:tid 376] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 14:26:42.128841 2018] [core:notice] [pid 5580:tid 376] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 14:26:42.153842 2018] [mpm_winnt:notice] [pid 5580:tid 376] AH00418: Parent: Created child process 148
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_mysqli.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 14:26:42.967281 2018] [mpm_winnt:notice] [pid 148:tid 304] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 14:26:49.455130 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:64503] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:26:50.472287 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:64503] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:26:50.942913 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:64503] PHP Fatal error:  Call to undefined function mysqli_connect() in D:\\amp\\www\\api\\test.php on line 4
+[Wed Jun 20 14:26:52.297991 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:64503] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:26:54.005687 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:64503] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:34:46.121986 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:64908] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:34:47.254938 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:64908] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:34:47.461950 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:64908] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:34:47.656560 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:64908] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:34:47.872171 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:64908] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:34:48.134186 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:64908] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:37:42.092298 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:54279] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:38:41.941428 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54362] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:38:42.685466 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54362] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:38:42.877477 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54362] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:38:43.005084 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54362] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:39:36.524612 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:54424] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:39:39.005340 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:54424] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 14:40:38.344313 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54449] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:40:40.302217 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54449] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:40:41.406479 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54454] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:40:42.293926 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54454] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:40:42.389531 2018] [:error] [pid 148:tid 848] [client 127.0.0.1:54454] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:40:42.402531 2018] [:error] [pid 148:tid 844] [client 127.0.0.1:54455] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:07.407410 2018] [mpm_winnt:notice] [pid 5580:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 14:41:09.408718 2018] [mpm_winnt:notice] [pid 148:tid 304] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 14:41:14.000360 2018] [mpm_winnt:notice] [pid 5580:tid 376] AH00430: Parent: Child process 148 exited successfully.
+[Wed Jun 20 14:41:16.742998 2018] [mpm_winnt:notice] [pid 1860:tid 372] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 14:41:16.742998 2018] [mpm_winnt:notice] [pid 1860:tid 372] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 14:41:16.742998 2018] [core:notice] [pid 1860:tid 372] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 14:41:16.765598 2018] [mpm_winnt:notice] [pid 1860:tid 372] AH00418: Parent: Created child process 4556
+[Wed Jun 20 14:41:17.545238 2018] [mpm_winnt:notice] [pid 4556:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 14:41:26.917118 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54472] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:28.905029 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54472] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:29.799477 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54472] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:30.735129 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54472] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:30.869137 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54472] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:30.878137 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54473] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:30.936141 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54473] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:31.877195 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54473] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 14:41:31.933198 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54479] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 15:02:08.835851 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54855] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:02:09.006861 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54855] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:02:09.233072 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54855] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:02:09.416083 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54855] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:03:06.757742 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54869] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:03:07.497784 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54869] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:03:07.823001 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54869] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:03:08.031013 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54869] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:03:08.993861 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54869] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 15:03:09.968917 2018] [:error] [pid 4556:tid 828] [client 127.0.0.1:54869] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 15:03:10.008919 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54870] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 15:03:11.079980 2018] [:error] [pid 4556:tid 832] [client 127.0.0.1:54870] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Wed Jun 20 15:25:36.085267 2018] [mpm_winnt:notice] [pid 1860:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 15:25:40.134777 2018] [mpm_winnt:notice] [pid 4556:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 15:25:49.153201 2018] [mpm_winnt:notice] [pid 1860:tid 372] AH00430: Parent: Child process 4556 exited successfully.
+[Wed Jun 20 15:26:51.798474 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 15:26:51.808474 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 15:26:51.808474 2018] [core:notice] [pid 1636:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 15:26:56.135731 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00418: Parent: Created child process 2020
+[Wed Jun 20 15:26:58.304135 2018] [mpm_winnt:notice] [pid 2020:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 15:28:10.241653 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 15:28:12.244363 2018] [mpm_winnt:notice] [pid 2020:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 15:28:12.282365 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00430: Parent: Child process 2020 exited successfully.
+[Wed Jun 20 15:47:52.674865 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 15:47:52.690465 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 15:47:52.690465 2018] [core:notice] [pid 1644:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 15:47:57.770478 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00418: Parent: Created child process 1996
+[Wed Jun 20 15:47:59.880491 2018] [mpm_winnt:notice] [pid 1996:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 15:52:54.773697 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 15:52:56.775204 2018] [mpm_winnt:notice] [pid 1996:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 15:52:56.865209 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00430: Parent: Child process 1996 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 15:52:59.707565 2018] [mpm_winnt:notice] [pid 988:tid 376] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 15:52:59.708565 2018] [mpm_winnt:notice] [pid 988:tid 376] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 15:52:59.708565 2018] [core:notice] [pid 988:tid 376] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 15:52:59.733567 2018] [mpm_winnt:notice] [pid 988:tid 376] AH00418: Parent: Created child process 2140
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_mysql.dll' - \xef\xbf\xbd\xd2\xb2\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd6\xb8\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc4\xa3\xef\xbf\xbd\xe9\xa1\xa3\r\n in Unknown on line 0
+[Wed Jun 20 15:53:00.499809 2018] [mpm_winnt:notice] [pid 2140:tid 304] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 15:53:54.878414 2018] [:error] [pid 2140:tid 832] [client 127.0.0.1:58133] PHP Fatal error:  Call to undefined function mysql_connect() in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:58:29.678740 2018] [mpm_winnt:notice] [pid 988:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 15:58:31.678854 2018] [mpm_winnt:notice] [pid 2140:tid 304] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 15:58:31.694855 2018] [mpm_winnt:notice] [pid 988:tid 376] AH00430: Parent: Child process 2140 exited successfully.
+[Wed Jun 20 15:58:35.615079 2018] [mpm_winnt:notice] [pid 5960:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 15:58:35.615079 2018] [mpm_winnt:notice] [pid 5960:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 15:58:35.615079 2018] [core:notice] [pid 5960:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 15:58:35.645081 2018] [mpm_winnt:notice] [pid 5960:tid 364] AH00418: Parent: Created child process 3968
+[Wed Jun 20 15:58:36.536132 2018] [mpm_winnt:notice] [pid 3968:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 15:58:43.813134 2018] [:error] [pid 3968:tid 824] [client 127.0.0.1:62570] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 15:59:22.245405 2018] [:error] [pid 3968:tid 804] [client 127.0.0.1:62582] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 16:00:11.549466 2018] [:error] [pid 3968:tid 800] [client 127.0.0.1:62601] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 16:00:13.549378 2018] [:error] [pid 3968:tid 800] [client 127.0.0.1:62601] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 16:03:42.633196 2018] [mpm_winnt:notice] [pid 5960:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 16:03:44.634293 2018] [mpm_winnt:notice] [pid 3968:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 16:03:44.652294 2018] [mpm_winnt:notice] [pid 5960:tid 364] AH00430: Parent: Child process 3968 exited successfully.
+[Wed Jun 20 16:03:45.928962 2018] [mpm_winnt:notice] [pid 5224:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 16:03:45.929962 2018] [mpm_winnt:notice] [pid 5224:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 16:03:45.929962 2018] [core:notice] [pid 5224:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 16:03:45.953964 2018] [mpm_winnt:notice] [pid 5224:tid 364] AH00418: Parent: Created child process 5416
+[Wed Jun 20 16:03:46.680600 2018] [mpm_winnt:notice] [pid 5416:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 16:23:50.573066 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63247] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:35.998862 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:36.676099 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:36.897909 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:37.077919 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:37.255128 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:37.419935 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:37.610545 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:37.798555 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:38.031366 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:38.284980 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:38.474189 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:38.654199 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:38.818209 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63257] PHP Fatal error:  Class 'DBhelper' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:48.004096 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63274] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:48.662332 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63274] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:48.860541 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63274] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:24:49.023749 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63274] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:00.784956 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:01.214981 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:01.402991 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:01.565001 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:01.723010 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:01.875018 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:02.036028 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:02.197037 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:02.359046 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:25:02.522055 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63284] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:05.117337 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:05.621763 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:05.797773 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:05.964782 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:06.144387 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:06.278994 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:26:06.452603 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63305] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:32.252712 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63345] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:32.837543 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63345] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:33.045555 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63345] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:33.212565 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63345] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:33.363573 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63345] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:33.547782 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63345] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 15
+[Wed Jun 20 16:28:56.243377 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63357] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:30:15.943089 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63373] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:30:16.619524 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63373] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:30:16.846735 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63373] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:30:16.972742 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63373] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:30:17.139950 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63373] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:30:17.296959 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63373] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:32:42.745578 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63400] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:32:45.537725 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63400] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:32:45.721335 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63400] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:32:45.898345 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:63400] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:37:59.713080 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63828] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:38:00.378118 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63828] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:38:00.546128 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63828] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:38:00.706137 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:63828] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:42:10.165610 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64312] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:42:11.228464 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64312] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:42:11.466676 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64312] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:42:11.666687 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64312] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:42:11.848297 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64312] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:44:36.821841 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64346] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:39.609324 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:40.205358 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:40.370368 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:40.525376 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:40.659384 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:40.796991 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:45:40.941198 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64362] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:46:10.999533 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64378] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:46:11.492160 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64379] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:46:11.633767 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64382] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:46:11.818778 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64384] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:46:12.051791 2018] [:error] [pid 5416:tid 788] [client 127.0.0.1:64378] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 16:46:12.534819 2018] [:error] [pid 5416:tid 784] [client 127.0.0.1:64379] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 16:46:12.633824 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64382] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 16:46:12.840836 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64384] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 16:46:15.219162 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64384] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:46:16.223418 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64384] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 16:47:42.677847 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64412] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:47:43.557492 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64412] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:47:43.726502 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64412] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:47:43.876709 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64412] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 16:48:44.085245 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64440] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:48:45.098501 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64440] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 16:50:16.412434 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64469] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:50:17.416090 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64469] PHP Fatal error:  Call to undefined function db_getRow() in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 16:50:18.974576 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64469] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:50:19.981832 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64469] PHP Fatal error:  Call to undefined function db_getRow() in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 16:50:25.470318 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64469] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\\amp\\www\\api\\DB.class.php on line 45
+[Wed Jun 20 16:50:26.482174 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64469] PHP Fatal error:  Call to undefined function connect() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 17:01:25.332972 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64911] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:26.788046 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64911] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:27.045061 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64911] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:27.321874 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64911] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:52.637249 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:53.397089 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:53.589898 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:53.765507 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:53.946517 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:54.114527 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:54.287537 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:01:54.446546 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64919] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:02:02.538595 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64920] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:02:02.739606 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64920] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:02:02.896615 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:64920] PHP Fatal error:  Call to private DB::__construct() from invalid context in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 17:03:34.661238 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64947] PHP Fatal error:  Call to undefined function getRow() in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 17:06:25.437319 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:65017] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 19
+[Wed Jun 20 17:08:31.734581 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65095] PHP Parse error:  syntax error, unexpected '[', expecting '(' in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:08:54.453578 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65116] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:09:33.985550 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65127] PHP Notice:  Undefined offset: 2 in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:13:18.814299 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65168] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:13:19.761953 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65168] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:13:19.951964 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65168] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:13:20.114973 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65168] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:13:20.282582 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65168] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:14:18.141731 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65188] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:14:19.791019 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65188] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\test.php on line 2
+[Wed Jun 20 17:16:23.824276 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65229] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:16:25.502769 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65229] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:16:25.721777 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65229] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:16:25.901787 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65229] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:16:26.094195 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65229] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 17:19:36.914504 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:65344] PHP Parse error:  syntax error, unexpected ']' in D:\\amp\\www\\api\\DB.class.php on line 38
+[Wed Jun 20 17:19:40.083482 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:65347] PHP Parse error:  syntax error, unexpected ']' in D:\\amp\\www\\api\\DB.class.php on line 38
+[Wed Jun 20 17:19:40.690517 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:65347] PHP Parse error:  syntax error, unexpected ']' in D:\\amp\\www\\api\\DB.class.php on line 38
+[Wed Jun 20 17:19:41.074539 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:65347] PHP Parse error:  syntax error, unexpected ']' in D:\\amp\\www\\api\\DB.class.php on line 38
+[Wed Jun 20 17:20:57.454778 2018] [:error] [pid 5416:tid 780] [client 127.0.0.1:65379] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\DB.class.php on line 79
+[Wed Jun 20 17:24:55.381316 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:65450] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 24
+[Wed Jun 20 17:32:22.782761 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:49275] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in D:\\amp\\www\\api\\DB.class.php on line 31
+[Wed Jun 20 17:32:22.838764 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:49275] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, boolean given in D:\\amp\\www\\api\\DB.class.php on line 34
+[Wed Jun 20 17:32:22.838764 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:49275] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in D:\\amp\\www\\api\\DB.class.php on line 35
+[Wed Jun 20 17:32:34.074002 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:49282] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 24
+[Wed Jun 20 20:05:27.429610 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51071] PHP Parse error:  syntax error, unexpected '$mysql_conf' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:05:28.822685 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51071] PHP Parse error:  syntax error, unexpected '$mysql_conf' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:05:29.031296 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51071] PHP Parse error:  syntax error, unexpected '$mysql_conf' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:05:29.234308 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51071] PHP Parse error:  syntax error, unexpected '$mysql_conf' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:05:29.434319 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51071] PHP Parse error:  syntax error, unexpected '$mysql_conf' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:11:01.213471 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51146] PHP Parse error:  syntax error, unexpected '$mysql_host' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:11:01.960514 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51146] PHP Parse error:  syntax error, unexpected '$mysql_host' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:11:02.176526 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51146] PHP Parse error:  syntax error, unexpected '$mysql_host' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:11:02.356537 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51146] PHP Parse error:  syntax error, unexpected '$mysql_host' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:11:02.522546 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51146] PHP Parse error:  syntax error, unexpected '$mysql_host' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:11:02.672555 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:51146] PHP Parse error:  syntax error, unexpected '$mysql_host' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\amp\\www\\api\\DB.class.php on line 5
+[Wed Jun 20 20:16:03.943663 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:64071] PHP Fatal error:  Call to undefined method DB::getIntance() in D:\\amp\\www\\api\\test.php on line 18
+[Wed Jun 20 20:16:35.268747 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:61898] PHP Notice:  Undefined variable: mysqli in D:\\amp\\www\\api\\DB.class.php on line 29
+[Wed Jun 20 20:16:35.287347 2018] [:error] [pid 5416:tid 768] [client 127.0.0.1:61898] PHP Notice:  Trying to get property of non-object in D:\\amp\\www\\api\\DB.class.php on line 29
+[Wed Jun 20 20:32:18.692061 2018] [mpm_winnt:notice] [pid 5224:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 20:32:23.138069 2018] [mpm_winnt:notice] [pid 5416:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 20:32:32.607285 2018] [mpm_winnt:notice] [pid 5224:tid 364] AH00430: Parent: Child process 5416 exited successfully.
+[Wed Jun 20 20:33:44.204869 2018] [mpm_winnt:notice] [pid 1756:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 20 20:33:44.204869 2018] [mpm_winnt:notice] [pid 1756:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 20 20:33:44.204869 2018] [core:notice] [pid 1756:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 20 20:33:47.255278 2018] [mpm_winnt:notice] [pid 1756:tid 364] AH00418: Parent: Created child process 2028
+[Wed Jun 20 20:33:49.314481 2018] [mpm_winnt:notice] [pid 2028:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 20 20:52:33.019740 2018] [:error] [pid 2028:tid 792] [client 127.0.0.1:56149] PHP Notice:  Undefined variable: mysqli in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:52:33.019740 2018] [:error] [pid 2028:tid 792] [client 127.0.0.1:56149] PHP Fatal error:  Call to a member function select_db() on null in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:52:34.029996 2018] [:error] [pid 2028:tid 792] [client 127.0.0.1:56149] PHP Notice:  Undefined variable: mysqli in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:52:34.029996 2018] [:error] [pid 2028:tid 792] [client 127.0.0.1:56149] PHP Fatal error:  Call to a member function select_db() on null in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:52:34.223007 2018] [:error] [pid 2028:tid 792] [client 127.0.0.1:56149] PHP Notice:  Undefined variable: mysqli in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:52:34.223007 2018] [:error] [pid 2028:tid 792] [client 127.0.0.1:56149] PHP Fatal error:  Call to a member function select_db() on null in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:52:56.082783 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:56160] PHP Notice:  Undefined variable: mysql_conf in D:\\amp\\www\\api\\DB.class.php on line 30
+[Wed Jun 20 20:53:07.549603 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:56164] PHP Notice:  Undefined variable: mysqli in D:\\amp\\www\\api\\DB.class.php on line 53
+[Wed Jun 20 20:53:07.549603 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:56164] PHP Notice:  Trying to get property of non-object in D:\\amp\\www\\api\\DB.class.php on line 53
+[Wed Jun 20 20:55:16.137594 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:65025] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\test.php on line 24
+[Wed Jun 20 20:56:47.905459 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:65062] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\DB.class.php on line 54
+[Wed Jun 20 20:56:48.734506 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:65062] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\DB.class.php on line 54
+[Wed Jun 20 20:56:49.068525 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:65062] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\DB.class.php on line 54
+[Wed Jun 20 20:57:05.091442 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:65074] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\test.php on line 24
+[Wed Jun 20 21:01:31.705691 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:51135] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 27
+[Wed Jun 20 21:01:39.527139 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:51136] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 27
+[Wed Jun 20 21:01:40.095171 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:51136] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 27
+[Wed Jun 20 21:01:40.296183 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:51136] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 27
+[Wed Jun 20 21:32:02.985435 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:51780] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\DB.class.php on line 114
+[Wed Jun 20 21:33:27.800286 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:51805] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\DB.class.php on line 114
+[Wed Jun 20 21:34:14.697968 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:51820] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\DB.class.php on line 114
+[Wed Jun 20 21:35:31.481360 2018] [:error] [pid 2028:tid 796] [client 127.0.0.1:51835] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in D:\\amp\\www\\api\\test.php on line 27
+[Wed Jun 20 22:19:48.581337 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52347] PHP Fatal error:  Call to undefined method DB::delete() in D:\\amp\\www\\api\\test.php on line 20
+[Wed Jun 20 22:57:41.029314 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52783] PHP Warning:  Missing argument 2 for DB::getOne(), called in D:\\amp\\www\\api\\test.php on line 20 and defined in D:\\amp\\www\\api\\DB.class.php on line 53
+[Wed Jun 20 22:57:41.029314 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52783] PHP Warning:  Missing argument 3 for DB::getOne(), called in D:\\amp\\www\\api\\test.php on line 20 and defined in D:\\amp\\www\\api\\DB.class.php on line 53
+[Wed Jun 20 22:57:41.029314 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52783] PHP Warning:  Missing argument 4 for DB::getOne(), called in D:\\amp\\www\\api\\test.php on line 20 and defined in D:\\amp\\www\\api\\DB.class.php on line 53
+[Wed Jun 20 22:57:41.029314 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52783] PHP Notice:  Undefined variable: select_key in D:\\amp\\www\\api\\DB.class.php on line 55
+[Wed Jun 20 22:57:41.029314 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52783] PHP Notice:  Undefined variable: comparison_key in D:\\amp\\www\\api\\DB.class.php on line 55
+[Wed Jun 20 22:57:41.029314 2018] [:error] [pid 2028:tid 804] [client 127.0.0.1:52783] PHP Notice:  Undefined variable: key_id in D:\\amp\\www\\api\\DB.class.php on line 55
+[Wed Jun 20 23:18:42.997706 2018] [mpm_winnt:notice] [pid 1756:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 20 23:18:45.041309 2018] [mpm_winnt:notice] [pid 2028:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 20 23:18:51.484121 2018] [mpm_winnt:notice] [pid 1756:tid 364] AH00430: Parent: Child process 2028 exited successfully.
+[Thu Jun 21 07:37:12.894511 2018] [mpm_winnt:notice] [pid 1784:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Thu Jun 21 07:37:12.914511 2018] [mpm_winnt:notice] [pid 1784:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Thu Jun 21 07:37:12.914511 2018] [core:notice] [pid 1784:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Thu Jun 21 07:37:16.464117 2018] [mpm_winnt:notice] [pid 1784:tid 364] AH00418: Parent: Created child process 1048
+[Thu Jun 21 07:37:18.445320 2018] [mpm_winnt:notice] [pid 1048:tid 264] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 21 07:46:47.505422 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:64676] script 'D:/amp/www/api\xe3\x80\x81test.php' not found or unable to stat
+[Thu Jun 21 07:46:55.398757 2018] [:error] [pid 1048:tid 804] [client 127.0.0.1:64677] PHP Parse error:  syntax error, unexpected '}' in D:\\amp\\www\\api\\DB.class.php on line 158
+[Thu Jun 21 07:48:07.017651 2018] [:error] [pid 1048:tid 796] [client 127.0.0.1:59519] PHP Parse error:  syntax error, unexpected '}' in D:\\amp\\www\\api\\DB.class.php on line 158
+[Thu Jun 21 07:48:07.738688 2018] [:error] [pid 1048:tid 796] [client 127.0.0.1:59519] PHP Parse error:  syntax error, unexpected '}' in D:\\amp\\www\\api\\DB.class.php on line 158
+[Thu Jun 21 07:48:08.112498 2018] [:error] [pid 1048:tid 796] [client 127.0.0.1:59519] PHP Parse error:  syntax error, unexpected '}' in D:\\amp\\www\\api\\DB.class.php on line 158
+[Thu Jun 21 07:48:08.309307 2018] [:error] [pid 1048:tid 796] [client 127.0.0.1:59519] PHP Parse error:  syntax error, unexpected '}' in D:\\amp\\www\\api\\DB.class.php on line 158
+[Thu Jun 21 07:48:08.509318 2018] [:error] [pid 1048:tid 796] [client 127.0.0.1:59519] PHP Parse error:  syntax error, unexpected '}' in D:\\amp\\www\\api\\DB.class.php on line 158
+[Thu Jun 21 08:12:41.184482 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:58694] PHP Notice:  Undefined variable: res in D:\\amp\\www\\api\\test.php on line 38
+[Thu Jun 21 08:44:51.921753 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:41138] PHP Notice:  Undefined index: name in D:\\amp\\www\\api\\user_register.php on line 14
+[Thu Jun 21 08:44:51.921753 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:41138] PHP Notice:  Undefined index: email in D:\\amp\\www\\api\\user_register.php on line 15
+[Thu Jun 21 08:44:51.921753 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:41138] PHP Notice:  Undefined index: phone in D:\\amp\\www\\api\\user_register.php on line 16
+[Thu Jun 21 08:44:51.921753 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:41138] PHP Notice:  Undefined index: password in D:\\amp\\www\\api\\user_register.php on line 17
+[Thu Jun 21 09:06:30.113339 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59504] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\amp\\www\\api\\test.php on line 41
+[Thu Jun 21 09:08:12.037153 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59535] PHP Notice:  Use of undefined constant data - assumed 'data' in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:08:30.389046 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59543] PHP Notice:  Use of undefined constant data - assumed 'data' in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:08:32.314514 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59543] PHP Notice:  Use of undefined constant data - assumed 'data' in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:08:32.826133 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59543] PHP Notice:  Use of undefined constant data - assumed 'data' in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:04.765776 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59736] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:13.917042 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:15.028080 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:15.247290 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:15.428499 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:15.596108 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:15.810318 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:12:15.984527 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59737] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 25
+[Thu Jun 21 09:14:07.941316 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59794] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 24
+[Thu Jun 21 09:14:07.941316 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59794] PHP Notice:  Undefined variable: arr in D:\\amp\\www\\api\\test.php on line 27
+[Thu Jun 21 09:14:23.326111 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59801] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 26
+[Thu Jun 21 09:14:23.327112 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59801] PHP Notice:  Undefined variable: arr in D:\\amp\\www\\api\\test.php on line 29
+[Thu Jun 21 09:14:24.304762 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59801] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 26
+[Thu Jun 21 09:14:24.304762 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59801] PHP Notice:  Undefined variable: arr in D:\\amp\\www\\api\\test.php on line 29
+[Thu Jun 21 09:14:24.472970 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59801] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in D:\\amp\\www\\api\\test.php on line 26
+[Thu Jun 21 09:14:24.472970 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:59801] PHP Notice:  Undefined variable: arr in D:\\amp\\www\\api\\test.php on line 29
+[Thu Jun 21 09:15:27.991552 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59818] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:15:29.841843 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59818] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:15:30.101453 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59818] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:15:30.280062 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59818] PHP Notice:  Array to string conversion in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:15:40.103574 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:59830] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:19:52.604585 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:64554] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:19:53.372228 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:64554] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:19:53.581240 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:64554] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:19:53.768251 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:64554] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:20:49.762196 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:64573] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 09:26:46.722579 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:36756] PHP Notice:  Undefined index: email in D:\\amp\\www\\api\\user_login.php on line 2
+[Thu Jun 21 09:26:46.722579 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:36756] PHP Notice:  Undefined index: password in D:\\amp\\www\\api\\user_login.php on line 3
+[Thu Jun 21 09:26:46.931790 2018] [:error] [pid 1048:tid 808] [client 192.168.191.2:36756] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\user_login.php on line 20
+[Thu Jun 21 09:41:30.874467 2018] [:error] [pid 1048:tid 808] [client 192.168.191.3:39453] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Thu Jun 21 12:35:40.484552 2018] [:error] [pid 1048:tid 800] [client 192.168.191.2:41955] PHP Notice:  Undefined index: name in D:\\amp\\www\\api\\user_register.php on line 3
+[Thu Jun 21 12:35:40.484552 2018] [:error] [pid 1048:tid 800] [client 192.168.191.2:41955] PHP Notice:  Undefined index: email in D:\\amp\\www\\api\\user_register.php on line 4
+[Thu Jun 21 12:35:40.484552 2018] [:error] [pid 1048:tid 800] [client 192.168.191.2:41955] PHP Notice:  Undefined index: phone in D:\\amp\\www\\api\\user_register.php on line 5
+[Thu Jun 21 12:35:40.484552 2018] [:error] [pid 1048:tid 800] [client 192.168.191.2:41955] PHP Notice:  Undefined index: password in D:\\amp\\www\\api\\user_register.php on line 6
+[Thu Jun 21 13:13:43.236747 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50222] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in D:\\amp\\www\\api\\test.php on line 95
+[Thu Jun 21 13:15:02.846859 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:50249] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in D:\\amp\\www\\api\\test.php on line 95
+[Thu Jun 21 13:15:03.654000 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:50249] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in D:\\amp\\www\\api\\test.php on line 95
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:50:48.613233 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50691] PHP Notice:  Undefined offset: 0 in D:\\amp\\www\\api\\test.php on line 23
+[Thu Jun 21 13:53:58.958555 2018] [:error] [pid 1048:tid 800] [client 192.168.191.2:60883] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\user_login.php on line 20
+[Thu Jun 21 13:56:49.275749 2018] [:error] [pid 1048:tid 800] [client 192.168.191.2:34427] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\user_login.php on line 20
+[Thu Jun 21 13:58:55.705014 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50789] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:09.308006 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50810] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:09.963340 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50810] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:10.211452 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50810] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:10.398561 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50810] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:10.571569 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50810] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:23.310491 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50827] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:23.829119 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50827] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:24.004525 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50827] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:34.559727 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50837] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:34.985949 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50837] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:00:35.156457 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50837] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 30
+[Thu Jun 21 14:02:49.129852 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50875] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in D:\\amp\\www\\api\\test.php on line 32
+[Thu Jun 21 14:02:50.410217 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50875] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in D:\\amp\\www\\api\\test.php on line 32
+[Thu Jun 21 14:02:50.585227 2018] [:error] [pid 1048:tid 800] [client 127.0.0.1:50875] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in D:\\amp\\www\\api\\test.php on line 32
+[Thu Jun 21 14:02:58.587531 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:50876] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\\amp\\www\\api\\test.php on line 32
+[Thu Jun 21 14:03:54.334168 2018] [:error] [pid 1048:tid 808] [client 127.0.0.1:50893] PHP Fatal error:  Cannot use object of type mysqli_result as array in D:\\amp\\www\\api\\test.php on line 32
+[Thu Jun 21 14:09:58.631995 2018] [mpm_winnt:notice] [pid 1784:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 21 14:10:02.734803 2018] [mpm_winnt:notice] [pid 1048:tid 264] AH00364: Child: All worker threads have exited.
+[Thu Jun 21 14:10:13.833726 2018] [mpm_winnt:notice] [pid 1784:tid 364] AH00430: Parent: Child process 1048 exited successfully.
+[Thu Jun 21 14:30:15.754505 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Thu Jun 21 14:30:15.767506 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Thu Jun 21 14:30:15.767506 2018] [core:notice] [pid 1644:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Thu Jun 21 14:30:19.090119 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00418: Parent: Created child process 1324
+[Thu Jun 21 14:30:20.119720 2018] [mpm_winnt:notice] [pid 1324:tid 264] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 21 16:22:51.171183 2018] [:error] [pid 1324:tid 796] [client 127.0.0.1:61978] PHP Notice:  Undefined variable: data_bannres in D:\\amp\\www\\api\\test.php on line 32
+[Thu Jun 21 16:38:19.989406 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54282] PHP Warning:  file_get_contents(http://127.0.0.1/data/goods_detail_data_0.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\goods_detail.php on line 4
+[Thu Jun 21 16:39:14.784719 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54310] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Thu Jun 21 16:39:29.726714 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54314] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Thu Jun 21 16:39:49.192757 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54318] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Thu Jun 21 16:40:21.389498 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54324] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Thu Jun 21 16:57:17.872351 2018] [:error] [pid 1324:tid 804] [client 127.0.0.1:62436] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\test.php on line 31
+[Thu Jun 21 16:58:40.519886 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54548] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_list.php on line 26
+[Thu Jun 21 16:59:04.452747 2018] [:error] [pid 1324:tid 804] [client 192.168.191.2:54566] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_list.php on line 26
+[Thu Jun 21 17:17:56.202740 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 21 17:17:58.230744 2018] [mpm_winnt:notice] [pid 1324:tid 264] AH00364: Child: All worker threads have exited.
+[Thu Jun 21 17:18:04.189954 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00430: Parent: Child process 1324 exited successfully.
+[Thu Jun 21 18:43:48.277271 2018] [mpm_winnt:notice] [pid 1632:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Thu Jun 21 18:43:48.287271 2018] [mpm_winnt:notice] [pid 1632:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Thu Jun 21 18:43:48.287271 2018] [core:notice] [pid 1632:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Thu Jun 21 18:43:51.334875 2018] [mpm_winnt:notice] [pid 1632:tid 364] AH00418: Parent: Created child process 2032
+[Thu Jun 21 18:43:53.160079 2018] [mpm_winnt:notice] [pid 2032:tid 264] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 21 19:47:30.490219 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:55222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:48:12.803673 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:52534] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:55.147927 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:56.079777 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:56.666410 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:56.911222 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:57.119233 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:57.666463 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:57.906274 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:50:58.093082 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64222] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:52:07.530764 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64252] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:52:35.822705 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64258] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:52:36.467941 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:64258] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:57:20.652869 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:57:21.379906 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:57:21.571516 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:57:21.708524 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:57:21.867132 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:57:22.036142 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 19:58:47.829013 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64363] PHP Notice:  Undefined index: name in D:\\amp\\www\\api\\test.php on line 78
+[Thu Jun 21 19:58:47.829013 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64363] PHP Notice:  Undefined index: name in D:\\amp\\www\\api\\test.php on line 78
+[Thu Jun 21 19:58:47.829013 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64363] PHP Notice:  Undefined index: name in D:\\amp\\www\\api\\test.php on line 78
+[Thu Jun 21 19:58:47.829013 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64363] PHP Notice:  Undefined index: name in D:\\amp\\www\\api\\test.php on line 78
+[Thu Jun 21 20:00:29.003561 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64388] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:00:29.947209 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64388] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:00:30.124418 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64388] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:00:30.298824 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:64388] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:02:13.618474 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:51919] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:02:14.170303 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:51919] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:02:14.355310 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:51919] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:13.738194 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:52196] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:14.272224 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:52196] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:49.042621 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:52205] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:49.573651 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:52205] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:49.782663 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:52205] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:49.962673 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:52205] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:06:50.142682 2018] [:error] [pid 2032:tid 792] [client 127.0.0.1:52205] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in D:\\amp\\www\\api\\test.php on line 21
+[Thu Jun 21 20:07:02.946885 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:52215] PHP Parse error:  syntax error, unexpected ')' in D:\\amp\\www\\api\\test.php on line 43
+[Thu Jun 21 20:07:04.137952 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:52215] PHP Parse error:  syntax error, unexpected ')' in D:\\amp\\www\\api\\test.php on line 43
+[Thu Jun 21 20:07:04.326963 2018] [:error] [pid 2032:tid 804] [client 127.0.0.1:52215] PHP Parse error:  syntax error, unexpected ')' in D:\\amp\\www\\api\\test.php on line 43
+[Thu Jun 21 20:22:03.759930 2018] [:error] [pid 2032:tid 792] [client 192.168.191.2:50157] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_content_list.php on line 43
+[Thu Jun 21 20:22:23.808506 2018] [:error] [pid 2032:tid 792] [client 192.168.191.2:40085] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_content_list.php on line 43
+[Thu Jun 21 23:38:11.875393 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:58210] PHP Notice:  Undefined index: goodsCount in D:\\amp\\www\\api\\shop_cart.php on line 27
+[Fri Jun 22 00:22:08.022925 2018] [mpm_winnt:notice] [pid 1632:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 22 00:22:12.610639 2018] [mpm_winnt:notice] [pid 2032:tid 264] AH00364: Child: All worker threads have exited.
+[Fri Jun 22 00:22:20.154359 2018] [mpm_winnt:notice] [pid 1632:tid 364] AH00430: Parent: Child process 2032 exited successfully.
+[Fri Jun 22 08:13:15.281712 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Fri Jun 22 08:13:15.281712 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Fri Jun 22 08:13:15.281712 2018] [core:notice] [pid 1620:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Fri Jun 22 08:13:18.712122 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00418: Parent: Created child process 1112
+[Fri Jun 22 08:13:20.178525 2018] [mpm_winnt:notice] [pid 1112:tid 264] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 22 08:24:56.233992 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:48382] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Fri Jun 22 08:28:29.950145 2018] [:error] [pid 1112:tid 804] [client 192.168.191.2:48410] PHP Warning:  file_get_contents(http://127.0.0.1/data/goods_detail_data_2.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\goods_detail.php on line 4
+[Fri Jun 22 09:22:39.748807 2018] [:error] [pid 1112:tid 808] [client 127.0.0.1:62962] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 42
+[Fri Jun 22 09:22:39.752808 2018] [:error] [pid 1112:tid 808] [client 127.0.0.1:62962] PHP Warning:  file_get_contents(http://127.0.0.1/data/goods_detail_data_0.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in D:\\amp\\www\\api\\test.php on line 68
+[Fri Jun 22 09:25:20.291038 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63031] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 42
+[Fri Jun 22 09:32:24.813100 2018] [:error] [pid 1112:tid 804] [client 127.0.0.1:63117] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 42
+[Fri Jun 22 09:33:05.591703 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63131] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 42
+[Fri Jun 22 09:33:06.384247 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63131] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 42
+[Fri Jun 22 09:33:06.700462 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63131] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 42
+[Fri Jun 22 09:33:20.743189 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63144] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 43
+[Fri Jun 22 09:33:21.620838 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63144] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 43
+[Fri Jun 22 09:33:21.806849 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63144] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 43
+[Fri Jun 22 09:33:21.996359 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63144] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 43
+[Fri Jun 22 09:33:39.397645 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63164] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 41
+[Fri Jun 22 09:33:40.154386 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63164] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 41
+[Fri Jun 22 09:33:40.353596 2018] [:error] [pid 1112:tid 796] [client 127.0.0.1:63164] PHP Notice:  Undefined variable: row in D:\\amp\\www\\api\\test.php on line 41
+[Fri Jun 22 09:44:27.975639 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:49124] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\goods_detail.php on line 5
+[Fri Jun 22 09:44:39.230333 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:49160] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\goods_detail.php on line 5
+[Fri Jun 22 09:59:48.813494 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43621] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 22 10:01:33.255614 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43717] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\goods_detail.php on line 5
+[Fri Jun 22 10:03:42.755438 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:50356] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 22 10:04:03.693248 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43762] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\goods_detail.php on line 5
+[Fri Jun 22 10:04:45.798775 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43769] PHP Fatal error:  Class 'DB' not found in D:\\amp\\www\\api\\goods_detail.php on line 5
+[Fri Jun 22 10:06:43.952794 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43788] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Fri Jun 22 10:06:43.952794 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43788] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Fri Jun 22 10:06:54.598434 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43791] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Fri Jun 22 10:06:54.598434 2018] [:error] [pid 1112:tid 796] [client 192.168.191.3:43791] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Fri Jun 22 10:08:27.028669 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:45555] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 22 10:09:13.371658 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:45645] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 22 10:17:04.753448 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:50712] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Fri Jun 22 10:19:15.685529 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:50728] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Fri Jun 22 10:19:15.685529 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:50728] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Fri Jun 22 10:20:09.717207 2018] [:error] [pid 1112:tid 796] [client 192.168.191.2:50740] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Fri Jun 22 10:22:24.766458 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:50794] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Fri Jun 22 10:22:41.035618 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:50798] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Fri Jun 22 10:23:44.835344 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:50802] PHP Warning:  file_get_contents(http://127.0.0.1/data/add_shop_data.json ): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request\r\n in D:\\amp\\www\\api\\add_shop_cart_count.php on line 3
+[Fri Jun 22 10:29:17.239390 2018] [:error] [pid 1112:tid 804] [client 192.168.191.2:50830] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Fri Jun 22 10:29:17.239390 2018] [:error] [pid 1112:tid 804] [client 192.168.191.2:50830] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Fri Jun 22 10:30:09.556900 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:50844] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\address.php on line 3
+[Fri Jun 22 10:30:09.583902 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:50844] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 35
+[Fri Jun 22 11:10:36.622251 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51178] PHP Parse error:  syntax error, unexpected ';', expecting ')' in D:\\amp\\www\\api\\add_shop_cart_count.php on line 19
+[Fri Jun 22 11:11:07.123272 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51230] PHP Parse error:  syntax error, unexpected ';', expecting ')' in D:\\amp\\www\\api\\add_shop_cart_count.php on line 19
+[Fri Jun 22 11:12:42.576296 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51242] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\add_shop_cart_count.php on line 15
+[Fri Jun 22 11:12:42.588797 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51242] PHP Warning:  Missing argument 3 for DB::getRow(), called in D:\\amp\\www\\api\\add_shop_cart_count.php on line 20 and defined in D:\\amp\\www\\api\\DB.class.php on line 84
+[Fri Jun 22 11:12:42.588797 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51242] PHP Notice:  Undefined variable: key_id in D:\\amp\\www\\api\\DB.class.php on line 86
+[Fri Jun 22 11:14:10.078355 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51256] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\add_shop_cart_count.php on line 15
+[Fri Jun 22 11:29:02.145161 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:51562] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\\amp\\www\\api\\add_shop_cart_count.php on line 22
+[Fri Jun 22 13:00:00.552894 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:35709] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:00:23.402728 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:34983] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:00:29.393539 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:43551] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:12:05.878910 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:53034] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:12:06.318935 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:53034] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:12:14.290654 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:40187] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:12:16.197961 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:40187] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:12:21.869048 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:52621] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:12:23.438534 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:52621] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:15:30.741796 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:41437] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:15:39.750888 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:58333] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:15:42.473841 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:58333] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:16:33.250880 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:44620] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:16:47.333744 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:52488] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:16:50.434993 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:52488] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:17:01.349693 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:60624] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:17:05.143104 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:60624] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:17:07.423130 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:60624] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:17:15.353760 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:46746] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:19:27.797025 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:41009] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:19:42.394401 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:50713] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:19:46.670227 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:50713] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:20:16.658838 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:38718] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:20:38.736537 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:34891] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:20:41.028466 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:34891] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:20:50.311874 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:54578] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:24:56.672720 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:52269] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:25:25.049475 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:40353] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:25:27.175082 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:40353] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:26:46.479744 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:46933] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 14
+[Fri Jun 22 13:37:28.114863 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:54905] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 15
+[Fri Jun 22 13:37:51.315334 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:43196] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 15
+[Fri Jun 22 13:38:34.128742 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:36853] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 15
+[Fri Jun 22 13:41:32.442927 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:49389] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 15
+[Fri Jun 22 13:41:36.227224 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:49389] PHP Notice:  Undefined index: goods_id in D:\\amp\\www\\api\\shop_cart_count.php on line 15
+[Fri Jun 22 19:12:32.624955 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:52555] PHP Warning:  Invalid argument supplied for foreach() in D:\\amp\\www\\api\\shop_cart_remove_selected.php on line 17
+[Fri Jun 22 19:14:31.291922 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:39402] PHP Warning:  Invalid argument supplied for foreach() in D:\\amp\\www\\api\\shop_cart_remove_selected.php on line 17
+[Fri Jun 22 19:24:45.039762 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:55077] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Fri Jun 22 19:24:45.039762 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:55077] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Fri Jun 22 19:31:55.209533 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:46732] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Fri Jun 22 19:32:05.391494 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:39750] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Fri Jun 22 19:32:20.185496 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:59797] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Fri Jun 22 19:32:59.437909 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:34136] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Fri Jun 22 19:35:50.630970 2018] [:error] [pid 1112:tid 800] [client 192.168.191.2:56134] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Fri Jun 22 21:21:43.406773 2018] [:error] [pid 1112:tid 792] [client 192.168.191.2:60855] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Fri Jun 22 21:22:39.311281 2018] [:error] [pid 1112:tid 792] [client 192.168.191.2:33102] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\order_list.php on line 35
+[Fri Jun 22 21:23:09.664400 2018] [:error] [pid 1112:tid 792] [client 192.168.191.2:47722] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 35
+[Fri Jun 22 21:28:59.655897 2018] [:error] [pid 1112:tid 792] [client 192.168.191.2:44617] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\order_list.php on line 35
+[Fri Jun 22 21:30:13.658053 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:33104] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 35
+[Fri Jun 22 22:01:49.812187 2018] [:error] [pid 1112:tid 808] [client 192.168.191.2:48891] PHP Parse error:  syntax error, unexpected ''UserSex'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\\amp\\www\\api\\user_login.php on line 29
+[Fri Jun 22 22:44:26.775428 2018] [:error] [pid 1112:tid 784] [client 192.168.191.1:59246] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Fri Jun 22 23:31:40.107280 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 22 23:31:42.902589 2018] [mpm_winnt:notice] [pid 1112:tid 264] AH00364: Child: All worker threads have exited.
+[Fri Jun 22 23:31:53.664511 2018] [mpm_winnt:notice] [pid 1620:tid 364] AH00430: Parent: Child process 1112 exited successfully.
+[Sat Jun 23 08:45:56.041262 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Sat Jun 23 08:45:56.041262 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sat Jun 23 08:45:56.041262 2018] [core:notice] [pid 1636:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sat Jun 23 08:46:00.116918 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00418: Parent: Created child process 1976
+[Sat Jun 23 08:46:01.661320 2018] [mpm_winnt:notice] [pid 1976:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 23 13:11:38.647918 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:34387] PHP Notice:  Undefined index: avatar in D:\\amp\\www\\api\\update_user_data.php on line 14
+[Sat Jun 23 13:11:38.679118 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:34387] PHP Notice:  Undefined index: userBirth in D:\\amp\\www\\api\\update_user_data.php on line 16
+[Sat Jun 23 13:14:39.231942 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:51357] PHP Notice:  Undefined index: avatar in D:\\amp\\www\\api\\update_user_data.php on line 14
+[Sat Jun 23 13:14:39.231942 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:51357] PHP Notice:  Undefined index: userBirth in D:\\amp\\www\\api\\update_user_data.php on line 16
+[Sat Jun 23 13:16:54.975529 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:45665] PHP Notice:  Undefined index: avatar in D:\\amp\\www\\api\\update_user_data.php on line 14
+[Sat Jun 23 13:16:54.975529 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:45665] PHP Notice:  Undefined index: userBirth in D:\\amp\\www\\api\\update_user_data.php on line 16
+[Sat Jun 23 13:19:46.527460 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:43326] PHP Notice:  Undefined index: avatar in D:\\amp\\www\\api\\update_user_data.php on line 14
+[Sat Jun 23 13:19:46.527460 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:43326] PHP Notice:  Undefined index: userBirth in D:\\amp\\www\\api\\update_user_data.php on line 16
+[Sat Jun 23 13:21:51.170851 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:55133] PHP Notice:  Undefined index: avatar in D:\\amp\\www\\api\\update_user_data.php on line 14
+[Sat Jun 23 13:21:51.170851 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:55133] PHP Notice:  Undefined index: userBirth in D:\\amp\\www\\api\\update_user_data.php on line 22
+[Sat Jun 23 13:21:51.202051 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:55133] PHP Notice:  Undefined variable: user_head_path in D:\\amp\\www\\api\\update_user_data.php on line 31
+[Sat Jun 23 13:21:51.202051 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:55133] PHP Notice:  Undefined variable: user_birth in D:\\amp\\www\\api\\update_user_data.php on line 39
+[Sat Jun 23 13:26:13.714152 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:56258] PHP Parse error:  syntax error, unexpected ')' in D:\\amp\\www\\api\\update_user_data.php on line 20
+[Sat Jun 23 13:26:44.515123 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:47605] PHP Notice:  Undefined variable: user_head_path in D:\\amp\\www\\api\\update_user_data.php on line 36
+[Sat Jun 23 13:26:44.515123 2018] [:error] [pid 1976:tid 784] [client 192.168.191.2:47605] PHP Notice:  Undefined variable: user_birth in D:\\amp\\www\\api\\update_user_data.php on line 44
+[Sat Jun 23 15:37:27.852936 2018] [:error] [pid 1976:tid 796] [client 192.168.191.2:51074] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Sat Jun 23 15:37:27.852936 2018] [:error] [pid 1976:tid 796] [client 192.168.191.2:51074] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Sat Jun 23 15:37:39.214561 2018] [:error] [pid 1976:tid 796] [client 192.168.191.2:32896] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Sat Jun 23 15:37:39.214561 2018] [:error] [pid 1976:tid 796] [client 192.168.191.2:32896] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Sat Jun 23 15:37:56.790698 2018] [:error] [pid 1976:tid 796] [client 192.168.191.2:36847] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Sat Jun 23 15:37:56.790698 2018] [:error] [pid 1976:tid 796] [client 192.168.191.2:36847] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Sun Jun 24 09:37:04.411397 2018] [:error] [pid 1976:tid 780] [client 192.168.191.2:60484] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Sun Jun 24 09:37:04.411397 2018] [:error] [pid 1976:tid 780] [client 192.168.191.2:60484] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Sun Jun 24 23:15:28.035923 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 24 23:15:34.434244 2018] [mpm_winnt:notice] [pid 1976:tid 264] AH00364: Child: All worker threads have exited.
+[Sun Jun 24 23:15:50.765784 2018] [mpm_winnt:notice] [pid 1636:tid 364] AH00430: Parent: Child process 1976 exited successfully.
+[Mon Jun 25 08:10:56.296505 2018] [core:warn] [pid 1772:tid 292] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 25 08:10:56.778506 2018] [mpm_winnt:notice] [pid 1772:tid 292] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 25 08:10:56.778506 2018] [mpm_winnt:notice] [pid 1772:tid 292] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 25 08:10:56.778506 2018] [core:notice] [pid 1772:tid 292] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 25 08:10:59.778917 2018] [mpm_winnt:notice] [pid 1772:tid 292] AH00418: Parent: Created child process 1128
+[Mon Jun 25 08:11:01.916121 2018] [mpm_winnt:notice] [pid 1128:tid 264] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 25 10:10:56.399316 2018] [:error] [pid 1128:tid 804] [client 192.168.191.2:34888] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 25 11:15:13.884200 2018] [:error] [pid 1128:tid 804] [client 192.168.191.2:35906] PHP Notice:  Undefined variable: data_bannres in D:\\amp\\www\\api\\search.php on line 23
+[Mon Jun 25 11:15:58.268615 2018] [:error] [pid 1128:tid 804] [client 192.168.191.2:35924] PHP Notice:  Undefined variable: data_bannres in D:\\amp\\www\\api\\search.php on line 23
+[Mon Jun 25 11:17:16.594245 2018] [:error] [pid 1128:tid 804] [client 192.168.191.2:35930] PHP Notice:  Undefined variable: data_bannres in D:\\amp\\www\\api\\search.php on line 23
+[Mon Jun 25 11:52:31.252772 2018] [mpm_winnt:notice] [pid 1772:tid 292] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 25 11:52:34.276582 2018] [mpm_winnt:notice] [pid 1128:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 25 11:52:43.013802 2018] [mpm_winnt:notice] [pid 1772:tid 292] AH00430: Parent: Child process 1128 exited successfully.
+[Mon Jun 25 15:14:28.420055 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Mon Jun 25 15:14:28.430055 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Mon Jun 25 15:14:28.430055 2018] [core:notice] [pid 1644:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Mon Jun 25 15:14:33.566093 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00418: Parent: Created child process 916
+[Mon Jun 25 15:14:35.048096 2018] [mpm_winnt:notice] [pid 916:tid 264] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 25 22:00:28.918139 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:62315] PHP Notice:  date_default_timezone_set(): Timezone ID 'Asia/Beijing' is invalid in D:\\amp\\www\\api\\test.php on line 77
+[Mon Jun 25 22:00:28.940140 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:62315] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 78
+[Mon Jun 25 22:05:12.072875 2018] [:error] [pid 916:tid 784] [client 127.0.0.1:49174] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 74
+[Mon Jun 25 22:05:47.512535 2018] [:error] [pid 916:tid 768] [client 127.0.0.1:49186] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:05:55.170555 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:49187] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:05:55.794789 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:49187] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:05:56.187812 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:49187] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:05:56.413023 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:49187] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:05:56.596033 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:49187] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:05:56.765043 2018] [:error] [pid 916:tid 788] [client 127.0.0.1:49187] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\api\\test.php on line 76
+[Mon Jun 25 22:18:18.875352 2018] [:error] [pid 916:tid 776] [client 192.168.191.1:49389] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Mon Jun 25 22:24:10.369694 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:38880] PHP Notice:  Undefined index: goodsId in D:\\amp\\www\\api\\add_order.php on line 15
+[Mon Jun 25 22:24:10.369694 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:38880] PHP Notice:  Undefined index: count in D:\\amp\\www\\api\\add_order.php on line 17
+[Mon Jun 25 22:27:48.632524 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:51503] PHP Notice:  Undefined index: goodsId in D:\\amp\\www\\api\\add_order.php on line 16
+[Mon Jun 25 22:27:48.632524 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:51503] PHP Notice:  Undefined index: count in D:\\amp\\www\\api\\add_order.php on line 17
+[Mon Jun 25 22:35:56.894605 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:56092] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Mon Jun 25 22:53:18.904127 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:44405] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Mon Jun 25 22:56:28.118998 2018] [:error] [pid 916:tid 776] [client 192.168.191.2:41633] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Mon Jun 25 22:58:41.129523 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 25 22:58:45.185530 2018] [mpm_winnt:notice] [pid 916:tid 264] AH00364: Child: All worker threads have exited.
+[Mon Jun 25 22:58:50.676740 2018] [mpm_winnt:notice] [pid 1644:tid 364] AH00430: Parent: Child process 916 exited successfully.
+[Tue Jun 26 09:00:29.312514 2018] [mpm_winnt:notice] [pid 1700:tid 368] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Tue Jun 26 09:00:29.332514 2018] [mpm_winnt:notice] [pid 1700:tid 368] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Tue Jun 26 09:00:29.332514 2018] [core:notice] [pid 1700:tid 368] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Tue Jun 26 09:00:32.789327 2018] [mpm_winnt:notice] [pid 1700:tid 368] AH00418: Parent: Created child process 2032
+[Tue Jun 26 09:00:34.708130 2018] [mpm_winnt:notice] [pid 2032:tid 264] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 26 09:22:28.933216 2018] [:error] [pid 2032:tid 804] [client 192.168.191.2:33975] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Tue Jun 26 11:03:33.375483 2018] [:error] [pid 2032:tid 788] [client 192.168.191.2:36503] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 47
+[Tue Jun 26 11:03:33.375483 2018] [:error] [pid 2032:tid 788] [client 192.168.191.2:36503] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Tue Jun 26 11:44:40.458808 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:56360] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Tue Jun 26 11:45:12.082820 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:45606] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Tue Jun 26 11:45:43.513131 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:58968] PHP Notice:  Undefined variable: res_details_menu_data in D:\\amp\\www\\api\\goods_detail.php on line 48
+[Tue Jun 26 11:48:14.208021 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:43763] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 35
+[Tue Jun 26 11:48:14.208021 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:43763] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 35
+[Tue Jun 26 11:49:43.472186 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:53983] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 35
+[Tue Jun 26 11:49:43.473186 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:53983] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 35
+[Tue Jun 26 11:56:37.770056 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:33136] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\\amp\\www\\api\\goods_detail.php on line 27
+[Tue Jun 26 11:56:49.064302 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:58950] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\\amp\\www\\api\\goods_detail.php on line 27
+[Tue Jun 26 12:02:47.750969 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:49051] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\\amp\\www\\api\\goods_detail.php on line 27
+[Tue Jun 26 12:03:52.127836 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:37428] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\\amp\\www\\api\\goods_detail.php on line 27
+[Tue Jun 26 12:13:33.979392 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:42738] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\order_list.php on line 35
+[Tue Jun 26 12:43:32.781963 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:54888] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jun 26 12:43:32.781963 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:54888] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jun 26 12:43:32.782963 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:54888] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jun 26 12:43:50.697600 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:46312] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jun 26 12:43:50.698600 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:46312] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jun 26 12:43:50.698600 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:46312] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jun 26 12:44:11.073935 2018] [:error] [pid 2032:tid 800] [client 192.168.191.2:45620] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Tue Jun 26 21:36:37.897333 2018] [core:warn] [pid 1684:tid 292] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 26 21:36:38.843346 2018] [mpm_winnt:notice] [pid 1684:tid 292] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Tue Jun 26 21:36:38.843346 2018] [mpm_winnt:notice] [pid 1684:tid 292] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Tue Jun 26 21:36:38.843346 2018] [core:notice] [pid 1684:tid 292] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Tue Jun 26 21:36:42.957353 2018] [mpm_winnt:notice] [pid 1684:tid 292] AH00418: Parent: Created child process 1540
+[Tue Jun 26 21:36:44.470556 2018] [mpm_winnt:notice] [pid 1540:tid 264] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 26 23:51:09.748759 2018] [:error] [pid 1540:tid 804] [client 192.168.191.2:54411] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_content_list.php on line 44
+[Tue Jun 26 23:51:30.760961 2018] [:error] [pid 1540:tid 804] [client 192.168.191.2:39607] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_content_list.php on line 44
+[Wed Jun 27 00:02:54.639077 2018] [:error] [pid 1540:tid 804] [client 192.168.191.2:43154] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_content_list.php on line 44
+[Wed Jun 27 00:04:05.566133 2018] [:error] [pid 1540:tid 804] [client 192.168.191.2:59713] PHP Notice:  Undefined variable: data_list in D:\\amp\\www\\api\\sort_content_list.php on line 44
+[Wed Jun 27 00:41:15.290666 2018] [:error] [pid 1540:tid 804] [client 192.168.191.2:50042] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Wed Jun 27 00:48:24.348623 2018] [mpm_winnt:notice] [pid 1684:tid 292] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 27 00:48:27.596932 2018] [mpm_winnt:notice] [pid 1540:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jun 27 00:48:38.350755 2018] [mpm_winnt:notice] [pid 1684:tid 292] AH00430: Parent: Child process 1540 exited successfully.
+[Wed Jun 27 07:47:25.757717 2018] [mpm_winnt:notice] [pid 1736:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jun 27 07:47:25.767717 2018] [mpm_winnt:notice] [pid 1736:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jun 27 07:47:25.767717 2018] [core:notice] [pid 1736:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jun 27 07:47:29.118523 2018] [mpm_winnt:notice] [pid 1736:tid 364] AH00418: Parent: Created child process 1344
+[Wed Jun 27 07:47:31.052926 2018] [mpm_winnt:notice] [pid 1344:tid 264] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 27 12:36:39.677645 2018] [:error] [pid 1344:tid 792] [client 192.168.191.2:42973] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Wed Jun 27 12:36:47.304081 2018] [:error] [pid 1344:tid 792] [client 192.168.191.2:48134] PHP Notice:  Undefined variable: goods_data in D:\\amp\\www\\api\\shop_cart.php on line 35
+[Wed Jun 27 12:48:17.499558 2018] [:error] [pid 1344:tid 792] [client 192.168.191.2:44154] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\address.php on line 3
+[Wed Jun 27 12:48:17.533560 2018] [:error] [pid 1344:tid 792] [client 192.168.191.2:44154] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 33
+[Wed Jun 27 12:48:23.786917 2018] [:error] [pid 1344:tid 792] [client 192.168.191.2:60126] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\address.php on line 3
+[Wed Jun 27 12:48:23.788917 2018] [:error] [pid 1344:tid 792] [client 192.168.191.2:60126] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 33
+[Thu Jun 28 20:23:34.776061 2018] [core:warn] [pid 1592:tid 292] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 28 20:23:36.382864 2018] [mpm_winnt:notice] [pid 1592:tid 292] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Thu Jun 28 20:23:36.382864 2018] [mpm_winnt:notice] [pid 1592:tid 292] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Thu Jun 28 20:23:36.382864 2018] [core:notice] [pid 1592:tid 292] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Thu Jun 28 20:23:38.176867 2018] [mpm_winnt:notice] [pid 1592:tid 292] AH00418: Parent: Created child process 1776
+[Thu Jun 28 20:23:39.549669 2018] [mpm_winnt:notice] [pid 1776:tid 264] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 28 21:58:56.664206 2018] [mpm_winnt:notice] [pid 1592:tid 292] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 28 21:58:58.692210 2018] [mpm_winnt:notice] [pid 1776:tid 264] AH00364: Child: All worker threads have exited.
+[Thu Jun 28 21:58:59.597011 2018] [mpm_winnt:notice] [pid 1592:tid 292] AH00430: Parent: Child process 1776 exited successfully.
+[Fri Jun 29 22:28:58.191459 2018] [mpm_winnt:notice] [pid 1500:tid 364] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Fri Jun 29 22:28:58.191459 2018] [mpm_winnt:notice] [pid 1500:tid 364] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Fri Jun 29 22:28:58.191459 2018] [core:notice] [pid 1500:tid 364] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Fri Jun 29 22:29:00.500263 2018] [mpm_winnt:notice] [pid 1500:tid 364] AH00418: Parent: Created child process 1780
+[Fri Jun 29 22:29:01.561065 2018] [mpm_winnt:notice] [pid 1780:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 30 19:13:41.786060 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:56670] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sat Jun 30 20:13:38.211187 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:59170] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sat Jun 30 21:13:38.100089 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:60825] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sat Jun 30 22:13:43.655315 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:64188] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sat Jun 30 23:13:38.124907 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:65128] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 00:13:38.118814 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:50770] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 01:00:18.530989 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:55700] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 02:00:18.633903 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:62026] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 03:00:16.080665 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:52128] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 04:00:17.078630 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:58462] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 05:00:17.430559 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:64798] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 06:00:15.262343 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:55005] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 07:00:16.834341 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:61311] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 08:00:18.043319 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:51394] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 09:00:17.708208 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:57812] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 10:00:18.312150 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:64019] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 11:00:20.681194 2018] [:error] [pid 1780:tid 808] [client 192.168.191.1:54251] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 13:32:45.985977 2018] [mpm_winnt:notice] [pid 1500:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 01 13:32:51.193397 2018] [mpm_winnt:notice] [pid 1780:tid 264] AH00364: Child: All worker threads have exited.
+[Sun Jul 01 13:34:05.029247 2018] [core:warn] [pid 1576:tid 292] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 01 13:34:05.356847 2018] [mpm_winnt:notice] [pid 1576:tid 292] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Sun Jul 01 13:34:05.356847 2018] [mpm_winnt:notice] [pid 1576:tid 292] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jul 01 13:34:05.356847 2018] [core:notice] [pid 1576:tid 292] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sun Jul 01 13:34:08.367653 2018] [mpm_winnt:notice] [pid 1576:tid 292] AH00418: Parent: Created child process 1824
+[Sun Jul 01 13:34:09.662455 2018] [mpm_winnt:notice] [pid 1824:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 01 14:00:41.703878 2018] [:error] [pid 1824:tid 792] [client 127.0.0.1:57306] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Sun Jul 01 14:48:20.774866 2018] [core:warn] [pid 1504:tid 292] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 01 14:48:21.523667 2018] [mpm_winnt:notice] [pid 1504:tid 292] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Sun Jul 01 14:48:21.523667 2018] [mpm_winnt:notice] [pid 1504:tid 292] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Sun Jul 01 14:48:21.523667 2018] [core:notice] [pid 1504:tid 292] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Sun Jul 01 14:48:21.586067 2018] [mpm_winnt:notice] [pid 1504:tid 292] AH00418: Parent: Created child process 1728
+[Sun Jul 01 14:48:22.646869 2018] [mpm_winnt:notice] [pid 1728:tid 264] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 01 21:49:07.290944 2018] [:error] [pid 1728:tid 804] [client 192.168.191.2:37658] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Sun Jul 01 21:49:07.296944 2018] [:error] [pid 1728:tid 804] [client 192.168.191.2:37658] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Sun Jul 01 21:49:07.296944 2018] [:error] [pid 1728:tid 804] [client 192.168.191.2:37658] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Sun Jul 01 22:40:36.731506 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:46051] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Sun Jul 01 22:40:36.731506 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:46051] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Sun Jul 01 22:40:36.732506 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:46051] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jul 03 09:39:35.768273 2018] [:error] [pid 1728:tid 772] [client 192.168.191.1:64797] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\amp\\www\\index.php on line 1
+[Tue Jul 03 10:40:40.920908 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:47203] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:40:40.939909 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:47203] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:40:49.635407 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:54945] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:40:49.636407 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:54945] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:40:49.636407 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:54945] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jul 03 10:45:17.582732 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:34428] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:45:17.582732 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:34428] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:45:17.583732 2018] [:error] [pid 1728:tid 792] [client 192.168.191.3:34428] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jul 03 10:50:48.648668 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:51736] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:50:48.671669 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:51736] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:50:48.671669 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:51736] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jul 03 10:50:48.809677 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:51736] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:50:48.809677 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:51736] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:50:48.809677 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:51736] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jul 03 10:51:47.120013 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:56023] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:51:47.120013 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:56023] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:51:47.121013 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:56023] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Tue Jul 03 10:52:29.330427 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:41761] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:52:29.330427 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:41761] PHP Notice:  Undefined variable: res_details_data in D:\\amp\\www\\api\\goods_detail.php on line 34
+[Tue Jul 03 10:52:29.331427 2018] [:error] [pid 1728:tid 804] [client 192.168.191.3:41761] PHP Notice:  Undefined variable: res_banners_data in D:\\amp\\www\\api\\goods_detail.php on line 46
+[Wed Jul 04 00:52:45.422268 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:46941] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\address.php on line 3
+[Wed Jul 04 00:52:45.526274 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:46941] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 33
+[Wed Jul 04 00:55:03.684176 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:35712] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\address.php on line 3
+[Wed Jul 04 00:55:03.686176 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:35712] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 33
+[Wed Jul 04 00:55:06.385330 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:35712] PHP Notice:  Undefined index: userId in D:\\amp\\www\\api\\address.php on line 3
+[Wed Jul 04 00:55:06.387331 2018] [:error] [pid 1728:tid 772] [client 192.168.191.2:35712] PHP Notice:  Undefined variable: users_data in D:\\amp\\www\\api\\address.php on line 33
+[Wed Jul 04 01:09:12.857672 2018] [mpm_winnt:notice] [pid 1504:tid 292] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jul 04 01:09:18.567892 2018] [mpm_winnt:notice] [pid 1728:tid 264] AH00364: Child: All worker threads have exited.
+[Wed Jul 04 13:49:57.041051 2018] [core:warn] [pid 1516:tid 292] AH00098: pid file D:/amp/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 04 13:49:57.337452 2018] [mpm_winnt:notice] [pid 1516:tid 292] AH00455: Apache/2.4.33 (Win32) PHP/5.6.36 configured -- resuming normal operations
+[Wed Jul 04 13:49:57.337452 2018] [mpm_winnt:notice] [pid 1516:tid 292] AH00456: Apache Lounge VC15 Server built: Mar 28 2018 12:12:41
+[Wed Jul 04 13:49:57.337452 2018] [core:notice] [pid 1516:tid 292] AH00094: Command line: 'D:\\amp\\Apache24\\bin\\httpd.exe -d D:/amp/Apache24'
+[Wed Jul 04 13:49:59.209455 2018] [mpm_winnt:notice] [pid 1516:tid 292] AH00418: Parent: Created child process 1804
+[Wed Jul 04 13:50:00.457457 2018] [mpm_winnt:notice] [pid 1804:tid 264] AH00354: Child: Starting 64 worker threads.

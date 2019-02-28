@@ -1,0 +1,3 @@
+将amp放在D盘
+D:\amp\Apache24\bin的地址框输入cmd回车输入start -k httpd 开启服务器
+局域网内电脑开的热点的IP地址一定要是192.168.191.1在Android配置的是这个ip地址
